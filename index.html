@@ -579,7 +579,7 @@ ratingSubmit.onclick = () => {
 
   // 机器人提示 + 弹出服务表现量表
   setTimeout(()=> {
-    const msg = '很抱歉，我没能理解您的需求，期待下次为您更好的服务。（请稍候几秒，完成满意度评价并查看对话代码后再关闭本页面）';
+    const msg = '感谢您的评分，接下来请评价本次点餐助手的具体表现。';
     createMsg(msg, 'bot');
     userMessages.push({
       text: '[BOT] ' + msg,
