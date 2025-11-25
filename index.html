@@ -519,7 +519,7 @@ expectationSubmit.onclick = () => {
   closeExpectationModal();
 
   // 呈现“服务失败”结果（服务失败情景）
-  const failMsg = '很抱歉，我没能理解您的需求，期待下次为您更好地服务。';
+  const failMsg = '很抱歉，我没能理解您的需求，期待下次为您更好地服务。（请稍候几秒，完成满意度评价并查看对话代码后再关闭本页面）';
   createMsg(failMsg, 'bot');
   userMessages.push({
     text: '[BOT] ' + failMsg,
